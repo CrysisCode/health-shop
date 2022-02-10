@@ -1,0 +1,21 @@
+.contact-form {
+  background-color: #E7EDDC;
+
+  & .form-control {
+    border: #8ea84f 1px solid;
+    resize: none;
+  }
+
+  & label {
+    font-weight: 800;
+  }
+
+  & button {
+    border-radius: 25px;
+    font-size: small;
+    width: 25%;
+    box-shadow: gray 1px 1px 1px;
+    background-color: #627f47;
+    color: #fff;
+  }
+}

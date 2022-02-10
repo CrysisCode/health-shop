@@ -1,0 +1,27 @@
+.eclipse {
+  margin: -3rem auto auto auto;
+  background-color: #8ea84f;
+  color: white;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  position: relative;
+
+  & .btn {
+    border-radius: 50px;
+    border: solid 1px #8ea84f;
+    padding: 14px 14px;
+    color: #8ea84f;
+    font-size: small;
+  }
+
+  & a {
+    color: #8ea84f;
+    font-weight: bold;
+  }
+}

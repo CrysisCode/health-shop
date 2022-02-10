@@ -1,0 +1,16 @@
+.header {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+
+  & a {
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  & span {
+    font-size: 22px;
+    color: #fff;
+  }
+}

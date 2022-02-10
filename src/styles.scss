@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-5.1.0-dist/css/bootstrap.min.css";
+
+body {
+    overflow-x: hidden;
+  }
+  
+  html,
+  body {
+    font-family: var(--font-primary) !important;
+    height: 100vh;
+    width: 100vw;
+    scrollbar-width: thin !important;
+    scrollbar-color: var(--color-secondary) var(--color-primary);
+    scroll-behavior: smooth;
+    &::-webkit-scrollbar {
+      width: 5px;
+      background-color: var(--color-secondary);
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--color-primary);
+    }
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  
+  h1 {
+    font-size: var(--font-large) !important;
+    font-family: var(--font-primary);
+    font-weight: 600;
+    color: var(--color-text-primary) !important;
+  }
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
